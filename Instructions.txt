@@ -1,0 +1,41 @@
+To start reactJs project
+	- npm start
+
+BackendProject (Strapi)
+	npx create-strapi-app@latest projectName
+
+	npm install @strapi/plugin-documentation
+
+	To start strapi project
+	npm run develop
+
+If strapi is already running on same port
+	- press (ctrl+alt+delete)
+	- Right click on Node Process
+	- click End Task
+
+
+URL
+baseaddress/routes?queryStrings
+http://localhost:3000/routes
+
+https://google.com/something
+https://amazon.in/laptops
+
+http://localhost:3000/register?usename=Roman&email=roman%40gmail.com&password=Roman%40123
+	- http://localhost:3000 ==>> Base Address
+	- /register? ==>> Route
+	- usename=Roman&email=roman%40gmail.com&password=Roman%40123  ==>> Query String
+
+Very Very Important loop
+Map Function
+
+Array []
+Object {P:V,P:V,P:V,...}
+
+Syntax
+let array = [{}]
+array.map(cbfn)
+cbfn = callback function
+()=>{}			<---New
+function(formalArg1, formalArg2, ...){} 	<---Old 
